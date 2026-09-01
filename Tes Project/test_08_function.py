@@ -21,16 +21,16 @@ reminder("Matematika Teknik")
 print()
 
 print("=== SECTION 3 ===")
-
+# Without return value
 def sum(x, y):
     print(x + y)
 
 result = sum(4, 8)
-print("The result is: ", result)
+print("The result is: ", result) # the results will be None because the function doesn't return any values
 print()
 
 print("=== SECTION 4 ===")
-
+# With return values
 def sumReturn(a, b, c):
     return a + b + c
 
