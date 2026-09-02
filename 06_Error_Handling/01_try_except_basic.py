@@ -37,9 +37,9 @@ except ValueError:
 # CONTOH 2: MENANGKAP DAN MELIHAT ISI ERROR (as e)
 # ------------------------------------------------------
 
- try:
+try:
     hasil = 10 / 0
- except ZeroDivisionError as e:
+except ZeroDivisionError as e:
     print(f"Terjadi error: {e}")
 
 # Penjelasan:
